@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 10px;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("Screenshot_32.png");
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+   
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  button {
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: #ffffff;
+    transition: 200ms;
+    color: red;
+    margin: 0 15px;
+    border-radius: 10px;
+    border: 2px solid red;
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+  }
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 3px 10px 10px 3px;
+}
+  #cr7{
+    background-image: url("Screenshot_29.png");
+    margin-top: 50px;
+  }
+  #messi{
+    background-image: url("Screenshot_30.png");
+    margin-top: 50px;
+  }
+  #armazenamento{
+    visibility: hidden;
+  }
+  #passinho{
+    border: 20px solid blueviolet;
+    border-radius: 10px;
+    border-style:groove;
+    width: 400px;
+    height: 300px;
+  }
