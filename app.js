@@ -5,7 +5,6 @@ function aparecer(){
 
     let video = document.getElementById("passinho")
     video.play()
-    audio.play()
 
 
 }
@@ -17,6 +16,5 @@ function desaparecer(){
 
     let audio = document.getElementById("goku")
     let video = document.getElementById("passinho")
-    audio.pause()
     video.pause()
 }
